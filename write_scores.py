@@ -20,7 +20,9 @@ e.g.
      
 Steps to make this work: 
 
-    1. Copy the FASTFA sequence infor for {protien_name} into alphafold server.
+    1. Copy the FASTFA sequence infor for {protien_name} into alphafold server. Ensure you've entered 
+       the sequences in the same order as they appear in the FASTFA file, otherwise you'll have to 
+       modify the chain map in the code below. 
 
     2. Run several jobs with various seeds
 
